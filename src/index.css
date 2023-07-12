@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+:root {
+  /*Variáveis de Cor*/
+  --main-bg: #FF9B9B;
+  --second-bg: #FFD6A5;
+  --color-btn: #B4FE83;
+  --text-btn: #3D3D3B;
+  --second-color: #FFFEC4;
+
+
+
+  font-family: Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: var(--main-bg);
+
+}
+
