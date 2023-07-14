@@ -1,35 +1,113 @@
-.container {
-    display: flex;
-    justify-content: space-between;
-    width: 1280px;
-    height: 360px;
-    padding: 1em;
-    margin: 2em auto
+@media (min-width: 1441px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 1280px;
+        height: 360px;
+        padding: 1em;
+        margin: 2em auto
+    }
+
+    .title {
+        font-size: 40px;
+        flex-direction: column;
+        width: 616px;
+        font-weight: 900;
+        color: white;
+    }
+
+    .title span {
+        color: var(--second-color);
+    }
+
+    .container p {
+        margin-top: 1.5em;
+    }
+
+    .imgcontainer {
+        width: 560px;
+        height: 351px;
+    }
+
+    .imgcontainer img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
-.title {
-    font-size: 40px;
-    flex-direction: column;
-    width: 616px;
-    font-weight: 900;
-    color: white;
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 1200px;
+        height: 360px;
+        padding: 1em;
+        margin: 2em auto
+    }
+
+    .title {
+        font-size: 40px;
+        flex-direction: column;
+        width: 616px;
+        font-weight: 900;
+        color: white;
+    }
+
+    .title span {
+        color: var(--second-color);
+    }
+
+    .container p {
+        margin-top: 1.5em;
+    }
+
+    .imgcontainer {
+        width: 560px;
+        height: 351px;
+    }
+
+    .imgcontainer img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
-.title span {
-    color: var(--second-color);
-}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1166px;
+        height: 360px;
+        padding: 1em;
+        margin: 2em auto
+    }
 
-.container p {
-    margin-top: 1.5em;
-}
+    .title {
+        font-size: 40px;
+        flex-direction: column;
+        width: 616px;
+        font-weight: 900;
+        color: white;
+    }
 
-.imgcontainer {
-    width: 560px;
-    height: 351px;
-}
+    .title span {
+        color: var(--second-color);
+    }
 
-.imgcontainer img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    .container p {
+        margin-top: 1.5em;
+    }
+
+    .imgcontainer {
+        width: 560px;
+        height: 351px;
+    }
+
+    .imgcontainer img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
